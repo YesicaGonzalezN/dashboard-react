@@ -1,0 +1,66 @@
+.datatable {
+    height: 600px;
+    padding: 20px;
+}
+
+.cellWithTable {
+    display: flex;
+    align-items: center;
+}
+
+.cellImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cellWithImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.viewButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: rgb(160, 27, 255);
+    border: 1px dotted rgb(179, 0, 255);
+    cursor: pointer;
+}
+
+.deleteButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: rgb(255, 9, 54);
+    border: 1px dotted rgb(255, 15, 59);
+    cursor: pointer;
+}
+
+.datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-datatable {
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

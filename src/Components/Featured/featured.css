@@ -1,0 +1,81 @@
+.featured {
+    flex: 2;
+    box-shadow: 4px 4px 11px 3px rgba(201,201,201,0.47);
+    padding: 10px;
+}
+
+.top-featured {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+.title-featured {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bottom-featured {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.featuredChart {
+    width: 150px;
+    height: 150px;
+}
+
+.title-featured-chart {
+    font-weight: 500;
+    color: gray;
+}
+
+.amount-featured-chart {
+    font-size: 30px;
+}
+
+.desc-featured-chart {
+    font-weight: 300;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+.summary {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemSummary {
+    text-align: center;
+}
+
+.itemTitle {
+    font-size: 14px;
+    color: gray;
+}
+
+.color-progress {
+    color: #fff !important;
+}
+
+.itemResult {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.positive:before {
+    color: green;
+}
+.negative:before {
+    color: red;
+}
