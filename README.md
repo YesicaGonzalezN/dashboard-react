@@ -1,4 +1,5 @@
-Administrador de E-Commerce creado con React. (EN PROCESO DE DESARROLLO)
+Administrador de E-Commerce creado con React. 
+(EN PROCESO DE DESARROLLO)
 
 - Deploy: https://dashboard-juanas.vercel.app/
 
